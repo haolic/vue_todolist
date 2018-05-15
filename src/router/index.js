@@ -10,6 +10,7 @@ export default new Router({
     {
       path: '/',
       name: 'HelloWorld',
+      redirect: '/todolist',
       component: HelloWorld
     },
     {

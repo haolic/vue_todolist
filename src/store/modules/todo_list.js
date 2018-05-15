@@ -1,5 +1,8 @@
 export default {
   state: {
+    testObj: {
+      testText: ''
+    },
     todoForm: {
       name: '',
       type: '',
@@ -28,7 +31,7 @@ export default {
       
     },
     addItem(state) {
-      state.todoTableData.push({
+      state.todoTableData.unshift({
         name: state.todoForm.name,
         type: state.todoForm.type,
         price: state.todoForm.price,

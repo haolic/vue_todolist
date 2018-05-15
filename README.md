@@ -5,8 +5,11 @@
 ## Build Setup
 
 ``` bash
+# clone
+git clone https://github.com/haolic/vue_todolist.git
+
 # install dependencies
-npm install
+cd vue_todolist && npm install
 
 # serve with hot reload at localhost:8080
 npm run dev
